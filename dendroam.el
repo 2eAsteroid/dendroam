@@ -23,19 +23,6 @@
 
 (provide 'dendroam)
 
-(defvar dendroam-capture-templates
-  '(("t" "Time note" entry
-     "* %?"
-     :if-new (file+head "${current-file}.%<%Y.%m.%d.%M%S%3N>.org"
-                        "#+title: %^{title}\n\n"))
-    ("s" "Scratch note" entry
-     "* %?"
-     :if-new (file+head "scratch.%<%Y.%m.%d.%M%S%3N>.org"
-                        "#+title: %^{title}\n\n")))
-
-  "Some utils templates for different type of notes such us time notes
-or sratch notes")
-
 ;;Node custom getters
 (cl-defmethod org-roam-node-current-file (node)
   "Gets node file-name-base by file name"

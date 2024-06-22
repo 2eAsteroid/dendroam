@@ -1,0 +1,44 @@
+(undo-tree-save-format-version . 1)
+"d2ce2bc9f250a43b4aadc8f1ca1b41f83bf14ea9"
+[nil nil nil nil (26231 10309 475215 0) 0 nil]
+([nil nil ((#("
+(defvar dendroam-capture-templates
+  '((\"t\" \"Time note\" entry
+     \"* %?\"
+     :if-new (file+head \"${current-file}.%<%Y.%m.%d.%M%S%3N>.org\"
+                        \"#+title: %^{title}\\n\\n\"))
+    (\"s\" \"Scratch note\" entry
+     \"* %?\"
+     :if-new (file+head \"scratch.%<%Y.%m.%d.%M%S%3N>.org\"
+                        \"#+title: %^{title}\\n\\n\")))
+
+  \"Some utils templates for different type of notes such us time notes
+or sratch notes\")" 0 1 (fontified t) 1 2 (fontified t) 2 8 (face font-lock-keyword-face fontified t) 8 9 (fontified t) 9 35 (face font-lock-variable-name-face fontified t) 35 41 (fontified t) 41 44 (face font-lock-string-face fontified t) 44 45 (fontified t) 45 56 (face font-lock-string-face fontified t) 56 68 (fontified t) 68 74 (face font-lock-string-face fontified t) 74 80 (fontified t) 80 87 (face font-lock-builtin-face fontified t) 87 99 (fontified t) 99 140 (face font-lock-string-face fontified t) 140 165 (fontified t) 165 189 (face font-lock-string-face fontified t) 189 197 (fontified t) 197 200 (face font-lock-string-face fontified t) 200 201 (fontified t) 201 215 (face font-lock-string-face fontified t) 215 227 (fontified t) 227 233 (face font-lock-string-face fontified t) 233 239 (fontified t) 239 246 (face font-lock-builtin-face fontified t) 246 258 (fontified t) 258 291 (face font-lock-string-face fontified t) 291 316 (fontified t) 316 340 (face font-lock-string-face fontified t) 340 347 (fontified t) 347 432 (face font-lock-doc-face fontified t) 432 433 (fontified t)) . 574) (undo-tree-id163 . -192) (undo-tree-id164 . -192) (undo-tree-id165 . -192) (undo-tree-id166 . -192) (undo-tree-id167 . -192) (undo-tree-id168 . -192) (undo-tree-id169 . -433) (undo-tree-id170 . -1) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (undo-tree-id174 . -433) (undo-tree-id175 . -433) (undo-tree-id176 . -1) (undo-tree-id177 . -1) (undo-tree-id178 . -433) (undo-tree-id179 . -433)) nil (26231 10316 695012 0) 0 nil] [nil nil ((#("(defvar dendroam-capture-templates
+  '((\"t\" \"Time note\" entry
+     \"* %?\"
+     :if-new (file+head \"${current-file}.%<%Y.%m.%d.%M%S%3N>.org\"
+                        \"#+title: %^{title}\\n\\n\"))
+    (\"s\" \"Scratch note\" entry
+     \"* %?\"
+     :if-new (file+head \"scratch.%<%Y.%m.%d.%M%S%3N>.org\"
+                        \"#+title: %^{title}\\n\\n\")))
+
+  \"Some utils templates for different type of notes such us time notes
+or sratch notes\")" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t) 8 34 (face font-lock-variable-name-face fontified t) 34 40 (fontified t) 40 43 (face font-lock-string-face fontified t) 43 44 (fontified t) 44 55 (face font-lock-string-face fontified t) 55 67 (fontified t) 67 73 (face font-lock-string-face fontified t) 73 79 (fontified t) 79 86 (face font-lock-builtin-face fontified t) 86 98 (fontified t) 98 139 (face font-lock-string-face fontified t) 139 164 (fontified t) 164 188 (face font-lock-string-face fontified t) 188 196 (fontified t) 196 199 (face font-lock-string-face fontified t) 199 200 (fontified t) 200 214 (face font-lock-string-face fontified t) 214 226 (fontified t) 226 232 (face font-lock-string-face fontified t) 232 238 (fontified t) 238 245 (face font-lock-builtin-face fontified t) 245 257 (fontified t) 257 290 (face font-lock-string-face fontified t) 290 315 (fontified t) 315 339 (face font-lock-string-face fontified t) 339 346 (fontified t) 346 431 (face font-lock-doc-face fontified t) 431 432 (fontified t)) . -575) (undo-tree-id141 . -432) (undo-tree-id142 . -191) (undo-tree-id143 . -191) (undo-tree-id144 . -191) (undo-tree-id145 . -191) (undo-tree-id146 . -191) (undo-tree-id147 . -191) (undo-tree-id148 . -415) (undo-tree-id149 . -432) (undo-tree-id150 . -432) 1007 (t 26231 10161 0 0)) ((575 . 1007)) (26231 10309 35124 0) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . -574) (undo-tree-id161 . -1) (undo-tree-id162 . -1) 575) nil (26231 10316 694974 0) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -573) (undo-tree-id106 . -1) (undo-tree-id107 . -1) (undo-tree-id108 . -1) (undo-tree-id109 . -1) (undo-tree-id110 . -1) (undo-tree-id111 . -1) (undo-tree-id112 . -1) (undo-tree-id113 . -1) (undo-tree-id114 . -1) (undo-tree-id115 . -1) (undo-tree-id116 . -1) (undo-tree-id117 . -1) (undo-tree-id118 . -1) (undo-tree-id119 . -1) (undo-tree-id120 . -1) (undo-tree-id121 . -1) (undo-tree-id122 . -1) (undo-tree-id123 . -1) (#("
+" 0 1 (fontified t)) . -574) (undo-tree-id124 . -1) (undo-tree-id125 . -1) (undo-tree-id126 . -1) (undo-tree-id127 . -1) (undo-tree-id128 . -1) (undo-tree-id129 . -1) (undo-tree-id130 . -1) (undo-tree-id131 . -1) (undo-tree-id132 . -1) (undo-tree-id133 . -1) (undo-tree-id134 . -1) (undo-tree-id135 . -1) (undo-tree-id136 . -1) (undo-tree-id137 . -1) (undo-tree-id138 . -1) (undo-tree-id139 . -1) (undo-tree-id140 . -1) 575) ((573 . 575)) (26231 10308 627908 0) 0 nil])
+nil
+([nil nil ((#("(provide 'dendroam)" 0 1 (fontified t) 1 8 (face font-lock-keyword-face fontified t) 8 10 (fontified t) 10 18 (face font-lock-constant-face fontified t) 18 19 (fontified t)) . 554) (undo-tree-id88 . -19) (undo-tree-id89 . -19) (undo-tree-id90 . -19) (undo-tree-id91 . -19) (undo-tree-id92 . -19) (undo-tree-id93 . -19) (undo-tree-id94 . -19) (undo-tree-id95 . -19) (undo-tree-id96 . -19) (undo-tree-id97 . -19) (undo-tree-id98 . -19) (undo-tree-id99 . -19) (undo-tree-id100 . -19) (undo-tree-id101 . -19) (undo-tree-id102 . -19) (undo-tree-id103 . -19) (undo-tree-id104 . -19) (undo-tree-id105 . -19)) ((554 . 573)) (26231 10307 971032 0) 0 nil])
+([nil nil ((#("
+" 0 1 (face font-lock-comment-face fontified t)) . -550) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (#("
+" 0 1 (fontified t)) . -551) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (#("
+" 0 1 (fontified t)) . -552) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) (#("
+" 0 1 (fontified t)) . -553) (undo-tree-id66 . -1) (undo-tree-id67 . -1) (undo-tree-id68 . -1) (undo-tree-id69 . -1) (undo-tree-id70 . -1) (undo-tree-id71 . -1) (undo-tree-id72 . -1) (undo-tree-id73 . -1) (undo-tree-id74 . -1) (undo-tree-id75 . -1) (undo-tree-id76 . -1) (undo-tree-id77 . -1) (undo-tree-id78 . -1) (undo-tree-id79 . -1) (undo-tree-id80 . -1) (undo-tree-id81 . -1) (undo-tree-id82 . -1) (undo-tree-id83 . -1) (undo-tree-id84 . -1) (undo-tree-id85 . -1) (undo-tree-id86 . -1) (undo-tree-id87 . -1) 554) ((550 . 554)) (26231 10307 467117 0) 0 nil])
+([nil nil ((5904 . 5906)) ((#("
+
+" 0 1 (fontified t) 1 2 (fontified t)) . 5904) (undo-tree-id154 . -2) (undo-tree-id155 . -2) (undo-tree-id156 . -2) (undo-tree-id157 . -2) (undo-tree-id158 . -2) (undo-tree-id159 . -2) (undo-tree-id160 . -2)) (26231 10307 263723 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 5924 . 5925) (nil fontified nil 5924 . 5925) (nil fontified nil 5916 . 5924) (nil fontified nil 5914 . 5916) (nil fontified nil 5907 . 5914) (nil fontified nil 5906 . 5907) (5906 . 5925)) ((#("(provide 'dendroam)" 0 1 (fontified nil) 1 8 (face font-lock-keyword-face fontified nil) 8 10 (fontified nil) 10 18 (face font-lock-constant-face fontified nil) 18 19 (rear-nonsticky nil fontified nil)) . 5906) (undo-tree-id151 . -19) (undo-tree-id152 . -19) (undo-tree-id153 . -19) (nil rear-nonsticky t 5924 . 5925) (t 26231 10300 0 0)) (26231 10300 345406 0) 0 nil])
+nil
